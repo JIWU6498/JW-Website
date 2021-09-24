@@ -4,6 +4,11 @@ My personal website is hosted at: www.wujenny.com
 ###  Run
 bundle exec jekyll serve
 
+### Use Docker to serve files from now on
+```
+docker run --rm --volume=$(pwd):/srv/jekyll -it jekyll/jekyll:latest jekyll serve
+```
+
 ### Find static files in the layouts
 ```
 {% for file in site.static_files %}
