@@ -6,7 +6,7 @@ bundle exec jekyll serve
 
 ### Use Docker to serve files from now on
 ```
-docker run --rm --volume=$(pwd):/srv/jekyll -it jekyll/jekyll:latest jekyll serve
+docker run --rm --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:latest jekyll serve
 ```
 
 ### Find static files in the layouts
