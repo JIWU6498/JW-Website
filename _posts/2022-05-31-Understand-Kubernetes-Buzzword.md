@@ -22,6 +22,7 @@ Node is worker machine which is basically a physical machine, ie., your laptop. 
 Cluster consists of multiple nodes. We just understand that node is a worker machine, so we can think cluster as a group of worker machines.
 
 > Cluster: multiple nodes
+
 ## 3. What is Pod?
 Pod exits in the node and it is the smallest deployable object in Kubernetes. Each pod can contain one or more containers with shared storage and network resources. Pod is usually a 1-1 mapping with containers. If we want to scale up our application, we can add more pods. Likewise, we can delete existing pods to scale down the application.
 
