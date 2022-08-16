@@ -117,6 +117,7 @@ Data redundancy means multiple copies of your data are stored. This helps to pro
 - Zone-redundant storage: It help to protect against data center level failures. Data is replicated synchronously across three Azure availability zones. Each availability zone is a separate physical location with independent power, cooling and networking.
 - Geo-redundant: Data is replicated to another region. Data is copied three times in the primary region using LRS and Data is also copied three times in the seconday region using LRS.
 - Read-access geo-redundant storage: The data is replicated similarily to the geo-redundant storage. But unlike the geo-redundant storage, the read-access geo-redundant storage can read data from any region at the same time while geo-redundant storage can read data from only one region
+
 ---
 
 ## Azure Logic App
@@ -219,7 +220,7 @@ Managed identity helps Azure resources to authenticate to services that support 
 
 ## App Service Environment
 
-###What is App Service Environment?
+### What is App Service Environment?
 
 The idea of App Service environment is deploy the entire app service inside of the virtual network. All app service environments have a public IP tha is used for inbound management traffic. With App service environment v2, you can deploy an internal load balanced app service environment or an external ASE. With the external ASE, you can use the public IP address as the endpoint to resolve http/https, FTP/FTPS, web deployment, remote debugging.
 
@@ -342,6 +343,7 @@ Azure Import/Export service supports the following of storage accounts:
 - standard general purpose v2 storage accounts 
 - blob storage accounts
 - general purpose v1 storage accounts(both classic or azure resources manager deployments)
+
 ---
 ## Azure SQL Database, Azure SQL Managed Instance and SQL Server on Azure Virtual Machines 
 
